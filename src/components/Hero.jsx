@@ -95,8 +95,8 @@ const Hero = () => {
 
           {/* ✅ FIXED RESUME DOWNLOAD */}
           <a
-            href="/Resume.pdf"
-            download="Resume.pdf"
+            href="/Resume_v2.pdf"
+            download="Resume_v2.pdf"
             className="bg-gradient-to-r from-secondary to-neon text-white font-bold py-4 px-12 rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/25 flex items-center justify-center text-[16px]"
           >
             Download Resume
