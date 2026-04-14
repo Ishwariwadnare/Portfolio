@@ -31,8 +31,8 @@ const Footer = () => {
           <div className="flex items-center gap-6">
             {[
               { icon: <FaLinkedin />, link: "https://linkedin.com/in/ishwari-wadnare", hover: "hover:text-[#0077b5]" },
-              { icon: <FaGithub />, link: "https://github.com/ishwari-wadnare", hover: "hover:text-highlight" },
-              { icon: <FaInstagram />, link: "https://instagram.com/your-handle", hover: "hover:text-[#e4405f]" },
+              { icon: <FaGithub />, link: "https://github.com/Ishwariwadnare", hover: "hover:text-highlight" },
+              { icon: <FaInstagram />, link: "https://instagram.com/IshwariWadnare", hover: "hover:text-[#e4405f]" },
               { icon: <FaEnvelope />, link: "mailto:wadnareishwari@gmail.com", hover: "hover:text-secondary" }
             ].map((social, idx) => (
               <a 

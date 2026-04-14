@@ -28,7 +28,7 @@ export const projects = [
     description: "A modern job portal frontend for job seekers to browse and apply for opportunities seamlessly.",
     image: jobspireImg, 
     tags: ["HTML", "CSS", "JavaScript", "Netlify"],
-    github: "https://github.com/ishwari-wadnare/job-portal",
+    github: "https://github.com/Ishwariwadnare/Jobspire-job-portal",
     live: "https://ishwari-job-portal.netlify.app/login.html"
   },
 
@@ -37,7 +37,7 @@ export const projects = [
     description: "A smart cafe management landing page designed with a dynamic and user-friendly menu system.",
     image: cafeImg, 
     tags: [ "HTML", "CSS", "JavaScript", "Tailwind CSS"],
-    github: "https://github.com/ishwari-wadnare/democafe",
+    github: "https://github.com/Ishwariwadnare/Democafe",
     live: "https://ishwariwadnare.github.io/Democafe/index.html"
   },
 ];
