@@ -74,7 +74,7 @@ const Navbar = () => {
             ))}
             <li className="mt-4">
               <a
-                href="/assets/resume.pdf"
+                href="/assets/Resume.pdf"
                 className="text-secondary font-bold border border-secondary px-4 py-2 rounded-lg block text-center"
               >
                 Download CV
