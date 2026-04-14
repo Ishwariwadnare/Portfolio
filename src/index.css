@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #14112e; 
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  p, span, h4 {
+    color: #c6bcf1; /* Lighter purple subText */
+  }
+
+  h1, h2, h3 {
+    color: #ffffff; /* highlight text */
+  }
+}
+
+@layer utilities {
+  .text-glow-purple {
+    text-shadow: 0 0 10px #875dfa, 0 0 20px #a855f7;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
