@@ -1,5 +1,7 @@
 // Apni photo ka sahi path yahan check karein
 import profileImg from "../assets/images/profile.jpg";
+import resume from "../assets/Resume.pdf";
+
 
 const Hero = () => {
   return (
@@ -23,8 +25,8 @@ const Hero = () => {
         
         {/* ACTION BUTTONS (Matching new gradient style) */}
         <div className="flex flex-col sm:flex-row gap-5">
-          <a 
-            href="/assets/Resume.pdf" // Public/assets folder mein resume.pdf hona chahiye
+          <a
+            href={resume}
             download="Resume.pdf"
             className="bg-gradient-to-r from-secondary to-neon text-white font-bold py-4 px-12 rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/25 flex items-center justify-center text-[16px]"
           >

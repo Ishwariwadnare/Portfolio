@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
+import resume from "../assets/Resume.pdf";
 import { navLinks } from "../data/constants";
 
 const Navbar = () => {
@@ -74,7 +75,8 @@ const Navbar = () => {
             ))}
             <li className="mt-4">
               <a
-                href="/assets/Resume.pdf"
+                href={resume}
+                download="Resume.pdf"
                 className="text-secondary font-bold border border-secondary px-4 py-2 rounded-lg block text-center"
               >
                 Download CV
