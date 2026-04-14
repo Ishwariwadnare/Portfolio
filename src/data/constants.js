@@ -2,6 +2,8 @@ import jobspireImg from '../assets/projects/jobspire.png';
 // import artStoreImg from '../assets/projects/alsinic.png';
 import cafeImg from '../assets/projects/cafe.jpeg';
 // import portfolioImg from '../assets/projects/portfolio.png';
+import artstoreImg from '../assets/projects/art-store.png';
+import portfolioImg from '../assets/projects/portfolio.png';
 
 export const navLinks = [
   { id: "home", title: "Home" },
@@ -39,5 +41,23 @@ export const projects = [
     tags: [ "HTML", "CSS", "JavaScript", "Tailwind CSS"],
     github: "https://github.com/Ishwariwadnare/Democafe",
     live: "https://ishwariwadnare.github.io/Democafe/index.html"
+  },
+
+   {
+    name: "Portfolio",
+    description: "A modern portfolio website showcasing my skills and projects.",
+    image: portfolioImg, 
+    tags: [ "HTML", "CSS", "JavaScript", "React"],
+    github: "https://github.com/Ishwariwadnare/Portfolio",
+    live: "https://portfolio-about-ishwari.netlify.app/"
+  },
+
+   {
+    name: "Alsinic Art Store",
+    description: "An online art store for purchasing and selling unique artworks.(ongoining project)",
+    image: artstoreImg, 
+    tags: [ "HTML", "CSS", "JavaScript", "Tailwind CSS", "React"],
+    // github: "https://github.com/Ishwariwadnare/Art-Store",
+    // live: "https://art-store-alsinic.netlify.app/"
   },
 ];
