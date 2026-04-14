@@ -9,7 +9,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    // bg-primary aapke tailwind.config.js mein defined hona chahiye
+    
     <div className="bg-primary w-full overflow-hidden min-h-screen selection:bg-secondary selection:text-white">
       
       {/* 1. Sticky Navbar */}
@@ -30,13 +30,13 @@ function App() {
         {/* 5. Projects Section (Portfolio Gallery) */}
         <Projects />
 
-        {/* Yahan aap Contact section baad mein add kar sakte hain */}
+        {/* 6. Contact Section (Form & Info) */}
         <Contact />
         {/* <Contact /> */}
 
       </main>
 
-      {/* Footer Section (Optional) */}
+      {/* Footer Section  */}
      <Footer />
     </div>
   );
