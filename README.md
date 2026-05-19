@@ -1,5 +1,4 @@
 # Portfolio Website
-
 A simple personal portfolio website scaffolded with React, Vite, and Tailwind CSS.
 
 ## Project structure
