@@ -18,13 +18,12 @@ const Hero = () => {
         </h1>
 
         <h3 className="text-2xl sm:text-3xl text-secondary font-semibold mb-6 tracking-wide">
-          Frontend Developer
+          Full Stack Developer
         </h3>
-
+      
         <p className="text-subText text-lg max-w-[550px] leading-relaxed mb-10">
-          Passionate about creating clean, modern, and responsive websites with a focus on user experience.
-          I enjoy turning ideas into user-friendly and functional web applications.
-        </p>
+  MERN Stack Developer passionate about developing responsive and scalable web applications. Experienced with React.js, JavaScript, Node.js, Express.js, MongoDB, REST APIs, Git, and modern development tools. Committed to writing clean, maintainable code and continuously improving technical skills.
+</p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-5">
