@@ -20,8 +20,12 @@ export const skills = [
   { name: "Responsive Design", iconId: "responsive", percentage: "95%" },
   { name: "HTML5 & CSS3", iconId: "html", percentage: "95%" },
   { name: "SQL", iconId: "sql", percentage: "83%" },
+  { name: "Bootstrap", iconId: "bootstrap", percentage: "90%" },
   { name: "Git & GitHub", iconId: "git", percentage: "85%" },
-  { name: "Deployment", iconId: "deployment", percentage: "90%" },
+  { name: "Node.js", iconId: "node", percentage: "80%" },
+  { name: "Express.js", iconId: "express", percentage: "75%" },
+  { name: "MongoDB", iconId: "mongodb", percentage: "85%" },
+  { name: "Figma", iconId: "figma", percentage: "90%" },
 ];
 
 export const projects = [
