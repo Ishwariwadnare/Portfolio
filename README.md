@@ -23,3 +23,5 @@ A simple personal portfolio website scaffolded with React, Vite, and Tailwind CS
 ## Notes
 
 Customize the `src/data/constants.js` file to update projects, skills, and contact details.
+
+Live link :-https://portfolio-about-ishwari.netlify.app/
