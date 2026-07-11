@@ -30,8 +30,8 @@ const Hero = () => {
 
           {/*RESUME DOWNLOAD */}
           <a
-            href="/Resume_v2.pdf"
-            download="Resume_v2.pdf"
+            href="/Ishwari_Wadnare_Resume_Frontend.pdf"
+            download="Ishwari_Wadnare_Resume_Frontend.pdf"
             className="bg-gradient-to-r from-secondary to-neon text-white font-bold py-4 px-12 rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/25 flex items-center justify-center text-[16px]"
           >
             Download Resume
