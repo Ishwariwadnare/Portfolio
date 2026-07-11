@@ -1,9 +1,8 @@
 import jobspireImg from '../assets/projects/jobspire.png';
-// import artStoreImg from '../assets/projects/alsinic.png';
 import cafeImg from '../assets/projects/cafe.jpeg';
-// import portfolioImg from '../assets/projects/portfolio.png';
 import artstoreImg from '../assets/projects/art-store.png';
 import portfolioImg from '../assets/projects/portfolio.png';
+import { FaLayerGroup, FaLaptopCode } from "react-icons/fa";
 
 export const navLinks = [
   { id: "home", title: "Home" },
@@ -31,6 +30,7 @@ export const skills = [
 export const projects = [
   {
     name: "JobSpire",
+    type: "Frontend Project",
     description: "A modern job portal frontend for job seekers to browse and apply for opportunities seamlessly.",
     image: jobspireImg, 
     tags: ["HTML", "CSS", "JavaScript", "Netlify"],
@@ -40,6 +40,7 @@ export const projects = [
 
   {
     name: "DemoCafe",
+    type: "Frontend Project",
     description: "A smart cafe management landing page designed with a dynamic and user-friendly menu system.",
     image: cafeImg, 
     tags: [ "HTML", "CSS", "JavaScript", "Tailwind CSS"],
@@ -49,6 +50,7 @@ export const projects = [
 
    {
     name: "Portfolio",
+    type: "Frontend Project",
     description: "A modern portfolio website showcasing my skills and projects.",
     image: portfolioImg, 
     tags: [ "HTML", "CSS", "JavaScript", "React"],
@@ -58,6 +60,7 @@ export const projects = [
 
 {
   name: "Alsinic Art",
+  type: "Full Stack Project",
   description: "A full-stack e-commerce platform for handmade and personalized gifts. Features include product browsing, category filtering, wishlist, shopping cart, admin dashboard, user authentication, and SQL database integration for product management.",
   image: artstoreImg,
   tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "JavaScript"],
