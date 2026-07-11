@@ -56,12 +56,12 @@ export const projects = [
     live: "https://portfolio-about-ishwari.netlify.app/"
   },
 
-   {
-    name: "Alsinic Art Store",
-    description: "An online art store for purchasing and selling unique artworks.(ongoining project)",
-    image: artstoreImg, 
-    tags: [ "HTML", "CSS", "JavaScript", "Tailwind CSS", "React"],
-    // github: "https://github.com/Ishwariwadnare/Art-Store",
-    // live: "https://art-store-alsinic.netlify.app/"
-  },
+{
+  name: "Alsinic Art",
+  description: "A full-stack e-commerce platform for handmade and personalized gifts. Features include product browsing, category filtering, wishlist, shopping cart, admin dashboard, user authentication, and SQL database integration for product management.",
+  image: artstoreImg,
+  tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "JavaScript"],
+  github: "https://github.com/Ishwariwadnare/Alsinic-art-project",
+  
+},
 ];
