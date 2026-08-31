@@ -33,7 +33,7 @@ const Footer = () => {
               { icon: <FaLinkedin />, link: "https://linkedin.com/in/ishwari-wadnare", hover: "hover:text-[#0077b5]" },
               { icon: <FaGithub />, link: "https://github.com/Ishwariwadnare", hover: "hover:text-highlight" },
               { icon: <FaInstagram />, link: "https://instagram.com/IshwariWadnare", hover: "hover:text-[#e4405f]" },
-              { icon: <FaEnvelope />, link: "mailto:wadnareishwari@gmail.com", hover: "hover:text-secondary" }
+              { icon: <FaEnvelope />, link: "mailto:ishwariwadnare16@gmail.com", hover: "hover:text-secondary" }
             ].map((social, idx) => (
               <a 
                 key={idx} 
