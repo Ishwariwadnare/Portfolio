@@ -4,7 +4,7 @@ const Contact = () => {
   const contactMethods = [
     {
       title: "Email Me",
-      value: "wadnareishwari@gmail.com",
+      value: "ishwariwadnare16@gmail.com",
       icon: <FaEnvelope />,
       link: "mailto:ishwariwadnare16@gmail.com", // This is the trigger
       color: "hover:border-blue-500/50",
