@@ -77,8 +77,8 @@ const Navbar = () => {
             {/*  FIXED RESUME DOWNLOAD */}
             <li className="mt-4">
               <a
-                href="/Ishwari_Wadnare_Resume_Frontend.pdf"
-                download="Ishwari_Wadnare_Resume_Frontend.pdf"
+                href="/Ishwari_Wadnare_Fullstack_Resume.pdf"
+                download="Ishwari_Wadnare_Fullstack_Resume.pdf"
                 className="text-secondary font-bold border border-secondary px-4 py-2 rounded-lg block text-center hover:bg-secondary/10 transition"
               >
                 Download CV
