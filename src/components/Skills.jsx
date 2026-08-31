@@ -1,59 +1,43 @@
-
-import {FaGithub, FaHtml5, FaJsSquare, FaReact,} from "react-icons/fa";
-
-import { SiMysql, SiNetlify, SiTailwindcss, SiBootstrap,  SiExpress, SiMongodb,SiFigma,SiNodedotjs } from "react-icons/si";
-
+import {FaGithub, FaHtml5, FaJsSquare, FaReact} from "react-icons/fa";
+import { SiMysql, SiNetlify, SiTailwindcss, SiBootstrap, SiExpress, SiMongodb, SiFigma, SiNodedotjs, SiPython } from "react-icons/si";
 import { MdDevices } from "react-icons/md";
 import { TbApi } from "react-icons/tb";
 
 import { skills } from "../data/constants";
 
 const Skills = () => {
-
   const getIcon = (id) => {
     switch (id) {
       case "react":
         return <FaReact className="text-[#61DBFB]" />;
-
       case "js":
         return <FaJsSquare className="text-[#F7DF1E]" />;
-
       case "tailwind":
         return <SiTailwindcss className="text-[#06B6D4]" />;
-
       case "responsive":
         return <MdDevices className="text-[#A855F7]" />;
-
       case "html":
         return <FaHtml5 className="text-[#E34F26]" />;
-
       case "git":
         return <FaGithub className="text-white" />;
-
       case "deployment":
         return <SiNetlify className="text-[#00C7B7]" />;
-
       case "sql":
         return <SiMysql className="text-[#4479A1]" />;
-
       case "node":
         return <SiNodedotjs className="text-[#5FA04E]" />;
-
       case "express":
         return <SiExpress className="text-gray-300" />;
-
       case "mongodb":
         return <SiMongodb className="text-[#47A248]" />;
-
       case "figma":
         return <SiFigma className="text-[#F24E1E]" />;
-
       case "bootstrap":
         return <SiBootstrap className="text-[#7952B3]" />;
-
       case "api":
         return <TbApi className="text-green-400" />;
-
+      case "python":
+        return <SiPython className="text-[#3776AB]" />;
       default:
         return null;
     }

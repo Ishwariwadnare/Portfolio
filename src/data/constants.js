@@ -26,6 +26,7 @@ export const skills = [
   { name: "Express.js", iconId: "express", percentage: "75%" },
   { name: "MongoDB", iconId: "mongodb", percentage: "85%" },
   { name: "Figma", iconId: "figma", percentage: "90%" },
+  { name: "Python", iconId: "python", percentage: "85%"},
 ];
 
 export const projects = [
