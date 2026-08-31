@@ -2,6 +2,7 @@ import jobspireImg from '../assets/projects/jobspire.png';
 import cafeImg from '../assets/projects/cafe.jpeg';
 import artstoreImg from '../assets/projects/art-store.png';
 import portfolioImg from '../assets/projects/portfolio.png';
+import workflowxImg from '../assets/projects/workflowx.png';
 import { FaLayerGroup, FaLaptopCode } from "react-icons/fa";
 
 export const navLinks = [
@@ -66,5 +67,14 @@ export const projects = [
   tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "JavaScript"],
   github: "https://github.com/Ishwariwadnare/Alsinic-art-project",
   
+},
+
+{
+  name: "WorkFlowX",
+  type: "Full Stack Project",
+  description: "A full-stack Employee Management System designed to simplify employee management, attendance tracking, and leave management. The system includes separate Admin and Employee workflows with authentication, employee management, attendance records, leave requests, and role-based access control.",
+  image: workflowxImg,
+  tags: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JavaScript"],
+  github: "https://github.com/Ishwariwadnare/WorkflowX",
 },
 ];
